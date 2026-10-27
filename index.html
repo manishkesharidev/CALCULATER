@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>My calculater</title>
+</head>
+<body>
+    <h1> CALCULATER </h1>
+    <center>
+    <table id="t1" >
+        <tr>
+            <th colspan="4"><div id="ob"><input type="text" id="display"></div></th>
+        </tr>
+        <tr>
+            <th><button id="dAC" onclick="">AC</button></th>
+            <th><button id="dC" onclick="">C</button></th>
+            <th><button id="dc" onclick="ins('√')">√</button></th>
+            <th><button id="dd" onclick="ins('/')">/</button></th>
+        </tr>
+        <tr>
+            <th><button id="d7" onclick="ins('7')">7</button></th>
+            <th><button id="d8" onclick="ins('8')">8</button></th>
+            <th><button id="d9" onclick="ins('9')">9</button></th>
+            <th><button id="dm" onclick="ins('*')">×</button></th>
+
+        </tr>
+        <tr>
+            <th><button id="d4" onclick="ins('4')">4</button></th>
+            <th><button id="d5" onclick="ins('5')">5</button></th>
+            <th><button id="d6" onclick="ins('6')">6</button></th>
+            <th><button id="ds" onclick="ins('-')">-</button></th>
+
+        </tr>
+        <tr>
+            <th><button id="d1" onclick="ins('1')">1</button></th>
+            <th><button id="d2" onclick="ins('2')">2</button></th>
+            <th><button id="d3" onclick="ins('3')">3</button></th>
+            <th><button id="da" onclick="ins('+')">+</button></th>
+        </tr>
+        <tr>
+            <th><button id="dp" onclick="ins('%')">%</button></th>
+            <th><button id="dz" onclick="ins('0')">0</button></th>
+            <th><button id="dot" onclick="ins('.')">.</button></th>
+            <th><button id="de" onclick="calculate()">=</button></th>
+
+        </tr>
+        <tr>
+            <th colspan="4" height="3px" align="center">@Manish kumar</th>
+        </tr>
+
+    </table>
+    </center>
+    <script src="script.js"></script>
+    
+</body>
+</html>

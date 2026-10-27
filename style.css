@@ -1,0 +1,67 @@
+h1 {
+  background: linear-gradient(45deg,#3F5EFB,#FC466B,#3F5EFB);
+  background-size: 300% 300%;
+  animation: gradient-animation 5s ease infinite;
+}
+
+
+body{
+    background: radial-gradient(circle at top left, #27345b, #10101b 55%, #08080e);
+
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 6vh;
+}
+#ob{
+    border: black solid 1px;
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 8vh;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 40px;
+    
+}
+#t1{
+    background: linear-gradient(20deg, #020024,#090979,#00D4FF);
+    height: 70vh;
+    width: 45vh;
+    border-radius: 30px;
+    border: black solid 2px;
+}
+
+
+button:hover{
+    border: black solid 2px;
+}
+#d1,#d2,#d3,#d4,#d5,#d6,#d7,#d8,#d9,#dz{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+#dd,#dm,#da,#de,#ds,#dd{
+    background-color: red;
+}
+#dAC,#dC,#dp,#dc,#dot{
+    background-color: black;
+    color: white;
+    
+
+}
+
+button{
+    border-radius: 20px;
+    width: 10vh;
+    height: 100%;
+    font-size: 5vh;
+}
+#display{
+    border: none;
+    font-size: 4vh;
+    border-radius: 30px;
+}
+
+
